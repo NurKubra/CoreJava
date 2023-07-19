@@ -1,0 +1,60 @@
+
+                 STRING METHODLARI
+
+ 1) toUpperCase(); i)Tum harfleri buyuk harfe cevirir.
+                   ii)bize String return eder.
+                   (String bir data döndürür)
+
+ 2) toLowerCase(); i)Tum harfleri kucuk harf yapar.
+                   ii) bize String return eder.
+
+ 3) charAt(0);     i)Bize datadaki ilk karakteri döndürür.
+                   ii)index ile calisir.
+
+ 4) lenght();      i)Bir datadaki karakter sayisini bize verir.
+                   ii)int bir deger döndürür
+
+ 5) substring();   Iki kullanimi vardir;
+                   i)baslangic ve bitis indexi verilirse
+                   baslangic indexi dahil bitis indexi haric yazilir.
+                   String'in ortasindan bir parca almaya yarar.
+                   substring(baslangicIndexiDahil,bitisIndexiHaric);
+                   ii)String'in verilen indexten sonuna kadar
+                   alinmasini saglar
+                   substring(baslangicIndexi);
+                   Bu method bize String döndürür.
+
+ 6) contains();    i)Bir data var mi ? yok mu? diye bakar.
+                   Bir String'de belli bir characterin veya characterlerin
+                   var olup olmadigini anlamak icin kullanilir
+                   ii)contains() method'u "boolean" return
+                   (Bize boolean bir deger döndürür.)
+
+ 7) startsWith();  i)Metnin bas kisminin istenilen dizi(1 veya
+                   daha fazla karakter) ile eslesip eslesmedigini
+                   kontrol eder.
+                   Sonucu boolean dir
+
+ 8) endswith();    Metnin belirli bir datayla biitp bitmedigini verir
+                   Bize boolean bir sonuc dondurur
+                   Tek karakterde, cok karakter de kullanilabilir.
+                   Buyuk kucuk harf duyarlidir!!
+
+ 9) replace();     Metnin icerisindeki belirli bir datanin
+                   yerine verilen diger datayi yerlestirir.
+                   Bize String bir data döndürür.
+
+ 10)replaceAll();  Bir GRUP datayi degistirmek icin kullanilir.
+                   Bir grup datayi ifade edebilmek icin
+                   Regular Expression(Regex) kullanilir.
+
+ 11)replaceFirst();replace () ile ayni isi yapiyor ancak ilk
+                   gordugu datayi degistiriyor
+
+ NOT              ;replace() Methodunda char kullanilabilir, replaceAll() da char kullanilmaz
+                   replaceAll() Methodunda regular expression kullanilabilir.
+
+ 12) trim();       bir String deki basinda ve sonundaki space
+                   karakterlerini siler.
+                   Aradaki spacelere dokunmaz. Saclar icin uclarindan kiriklarinin aldirilmasi gibi
+                   Cümledeki spacelerin silinmesi
